@@ -1,0 +1,100 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    background-image: url('doctor2.jpg');
+    background-repeat: no-repeat;
+}
+
+.doublenav .topnav{
+    width: 100%;
+    height: 55px;
+    background-color: white;
+}
+
+.doublenav .topnav .left ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.doublenav .topnav .left ul li{
+    float: left;
+    padding-left: 85px;
+}
+
+.doublenav .topnav .left ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 13px 15px;
+}
+
+.doublenav .topnav .right ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.doublenav .topnav .right ul li{
+    float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 13px 25px;
+}
+
+.doublenav .bottomnav{
+    width: 100%;
+    height: 55px;
+    background-color: white;
+}
+
+.doublenav .bottomnav .left img{
+    float: left;
+    height: 45px;
+    width: 120px;
+    padding-left: 90px;
+}
+
+.doublenav .bottomnav .right ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.doublenav .bottomnav .right ul li{
+    float: right;
+}
+
+.doublenav .bottomnav .right ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 13px 55px;
+}
+
+.doublenav .bottomnav .right ul li a:hover:not(.active){
+    background-color: rgb(0, 7, 10);
+    color: white;
+}
+
+.active{
+    background-color: rgb(49, 125, 224);
+}
+
+.doublenav .bottomnav .right ul li button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(77, 125, 230);
+    border: rgb(77, 125, 230);
+    text-align: center;
+    color: black;
+    padding-left: 15px;
+}

@@ -1,0 +1,260 @@
+body{
+    margin: 0%;
+    padding-right: 50px;
+    background-color: white;
+}
+
+.doublenav .topnav{
+    width: 100%;
+    height: 55px;
+    background-color: white;
+}
+
+.doublenav .topnav .left ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.doublenav .topnav .left ul li{
+    float: left;
+    padding-left: 85px;
+}
+
+.doublenav .topnav .left ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 13px 15px;
+}
+
+.doublenav .topnav .right ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.doublenav .topnav .right ul li{
+    float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 13px 25px;
+}
+
+.doublenav .bottomnav{
+    width: 100%;
+    height: 55px;
+    background-color: white;
+}
+
+.doublenav .bottomnav .left img{
+    float: left;
+    height: 45px;
+    width: 120px;
+    padding-left: 90px;
+}
+
+.doublenav .bottomnav .right ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.doublenav .bottomnav .right ul li{
+    float: right;
+}
+
+.doublenav .bottomnav .right ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 13px 55px;
+}
+
+.doublenav .bottomnav .right ul li a:hover:not(.active){
+    background-color: rgb(0, 7, 10);
+    color: white;
+}
+
+.active{
+    background-color: rgb(49, 125, 224);
+}
+
+.doublenav .bottomnav .right ul li button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(77, 125, 230);
+    border: rgb(77, 125, 230);
+    text-align: center;
+    color: black;
+}
+
+.pictext{
+    position: relative;
+}
+
+.img1{
+    align-items: center;
+    width: 1348px;
+    height: 300px;
+
+}
+
+.h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30;
+    font-weight: bold;
+    color: white;
+
+}
+
+.p1{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18;
+    color: white;
+}
+
+/* .doctors{
+    float: left;
+}
+
+.doctors .imgs ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.doctors .imgs ul li{
+    float: left; 
+}
+
+.doc1{
+    padding-left: 140px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-right: 45px;
+}
+
+.doc2{
+    padding-left: 35px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-right: 45px;
+}
+
+.doc3{
+    padding-left: 35px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+}
+
+.doctors .positions ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.doctors .positions ul li{
+    float: left;   
+}
+
+.pos1{
+    padding-left: 240px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 95px;
+}
+
+.pos2{
+    padding-left: 180px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 95px;
+}
+
+.pos3{
+    padding-left: 180px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 45px;
+}
+
+.doctors .names ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.doctors .names ul li{
+    float: left;
+}
+
+.name1{
+    padding-left: 225px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 95px;
+    font-size: 20;
+}
+
+.name2{
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 95px;
+    font-size: 20;
+}
+
+.name3{
+    padding-left: 162px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 45px;
+    font-size: 20;
+} */
+
+.doctors .doccard1 ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.doc1{
+    padding-left: 140px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-right: 45px;
+}
+
+.pos1{
+    padding-left: 240px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 95px;
+}
+
+.name1{
+    padding-left: 225px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 95px;
+    font-size: 20;
+}

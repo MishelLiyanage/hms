@@ -1,0 +1,218 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+
+.doublenav .topnav{
+    width: 100%;
+    height: 55px;
+    background-color: white;
+}
+
+.doublenav .topnav .left ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.doublenav .topnav .left ul li{
+    float: left;
+    padding-left: 85px;
+}
+
+.doublenav .topnav .left ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 13px 15px;
+}
+
+.doublenav .topnav .right ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.doublenav .topnav .right ul li{
+    float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 13px 25px;
+}
+
+.doublenav .bottomnav{
+    width: 100%;
+    height: 55px;
+    background-color: white;
+}
+
+.doublenav .bottomnav .left img{
+    float: left;
+    height: 45px;
+    width: 120px;
+    padding-left: 90px;
+}
+
+.doublenav .bottomnav .right ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    padding-right: 145px;
+
+}
+
+.doublenav .bottomnav .right ul li{
+    float: right;
+}
+
+.doublenav .bottomnav .right ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 13px 55px;
+}
+
+.doublenav .bottomnav .right ul li a:hover:not(.active){
+    background-color: rgb(0, 7, 10);
+    color: white;
+}
+
+.active{
+    background-color: rgb(49, 125, 224);
+}
+
+.doublenav .bottomnav .right ul li button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(77, 125, 230);
+    border: rgb(77, 125, 230);
+    text-align: center;
+    color: black;
+}
+
+.pictext{
+    position: relative;
+}
+
+.img1{
+    align-items: center;
+    width: 1349px;
+    height: 300px;
+}
+
+.h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30;
+    font-weight: bold;
+    color: white;
+}
+
+.p1{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18;
+    color: white;
+}
+
+.boxes2{
+    float: left;
+}
+
+.boxes2 .box1{
+    float: left;
+}
+
+.box1{
+    background-color: white;
+    padding: 10px 25px 15px 25px;
+    margin: 20px 25px 15px 85px;
+    border: 1px solid rgb(77, 125, 230);
+}
+
+.box1 .button{
+    align-items: center;
+    background-color: rgb(77, 125, 230);
+    color: white;
+    border: rgb(77, 125, 230);
+    height: 45px;
+    width: 635px;
+    margin: 15px 15px 10px 15px;
+    font-size: 15;
+}
+
+.box1 .name{
+    height: 40px;
+    width: 300px;
+    margin: 15px 15px 3px 15px;
+}
+
+.box1 .email{
+    height: 40px;
+    width: 300px;
+    margin: 15px 15px 3px 15px;
+}
+
+.box1 .phone{
+    height: 40px;
+    width: 300px;
+    margin: 2px 15px 3px 15px;
+}
+
+.box1 .department{
+    height: 40px;
+    width: 300px;
+    margin: 2px 15px 3px 15px;
+}
+
+.box1 .doctor{
+    height: 40px;
+    width: 300px;
+    margin: 2px 15px 3px 15px;
+}
+
+.box1 .date{
+    height: 40px;
+    width: 300px;
+    margin: 2px 15px 3px 15px;
+}
+
+.box1 .message{
+    height: 200px;
+    width: 635px;
+    margin: 15px 15px 5px 15px;
+}
+
+.boxes2 .box2{
+    float: left;
+}
+
+.box2{
+    background-color: rgb(77, 125, 230);
+    padding: 10px 25px 15px 25px;
+    margin: 20px 25px 15px 15px;
+    color: white;
+    width: 400px;
+    font-size: large;
+}
+
+.box2 table{
+    color: white;
+    font-size: 19;
+}
+
+.days{
+    padding: 0px 140px 15px 0px;
+}
